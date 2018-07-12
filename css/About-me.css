@@ -14,7 +14,11 @@ h1{
     text-align: center;
     border: 3px solid black;
     padding:10px;
-    width: 75%;
+    width: 50%;
+    border-spacing: 5px;
+    
+
+
     
 }
 h2{
@@ -22,25 +26,54 @@ h2{
     margin: auto;
     text-align: 50px; 
     text-align: center;
+    border-spacing: 5px;
+
     
 
+}
+
+p.one{
+    margin-bottom: 10px;
 }
 
 div {
 
     margin: auto;
     width: 50%;
-    border: 3px solid green;
+    border: 10px solid green;
     padding: 10px;
     background-color: white; 
-  
+    margin-top: 30px;
   
 
 }
 
-img.center {
+.center {
     display:block;
-    margin: 0 auto;
-   
-}
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border:3px solid black;
 
+    
+}
+   
+
+ol.one {
+    height: 35px;
+    width: 10px;
+    text-align: center;
+    list-style-type: none;
+
+
+
+}
+h2.htwo {
+    border: 3px dotted palevioletred;
+    background-color: white;
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 20px;
+}
