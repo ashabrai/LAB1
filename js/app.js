@@ -12,6 +12,7 @@ console.log('This is a counter', counter);
 alert('You can earn up to 7 points! If you get it all right then you win');
 
 
+
 var tattoos =Number(prompt( userName +' how many tattoos do you think I have?'));
 
 console.log('tattoos', tattoos);
@@ -28,6 +29,7 @@ else
 
   alert('Nice try, it\'s 15.');
 }
+
 
 
 
