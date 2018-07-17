@@ -14,10 +14,6 @@ alert('You can earn up to 7 points! If you get it all right then you win');
 
 
 function getQ1() {
-
-var tattoos =Number(prompt( userName +' how many tattoos do you think I have?'));
-
-
   var tattoos =Number(prompt( userName +' how many tattoos do you think I have?'));
 
   console.log('tattoos', tattoos);
@@ -42,11 +38,6 @@ getQ1();
 
 function getQ2() {
 
-
-var animal = prompt('So many people in Seattle own an animal, do you think I do Y or N?').toUpperCase();
-console.log('animal', animal);
-
-
   var animal = prompt('So many people in Seattle own an animal, do you think I do Y or N?').toUpperCase();
   console.log('animal', animal);
 
@@ -59,7 +50,6 @@ console.log('animal', animal);
     alert('You are wrong, but I sure do wish.');
   }
 }
-
 
 getQ2();
 
@@ -79,6 +69,7 @@ function getQ3() {
 }
 
 getQ3();
+
 
 function getQ4() {
 
@@ -143,12 +134,6 @@ getQ6();
 
 
 
-
-
-
-
-
-
 var favFruit= ['MANGO', 'STRAWBERRY','WATERMELON','PINEAPPLE'];
 
 function getQ7() {
@@ -187,7 +172,5 @@ function getQ7() {
 getQ7();
 
 console.log(scorePoint);
-
-
 
 alert('Nice job! You got ' + scorePoint + ' out of 7 questions right.');
