@@ -15,10 +15,7 @@ alert('You can earn up to 7 points! If you get it all right then you win');
 
 function getQ1() {
 
-var tattoos =Number(prompt( userName +' how many tattoos do you think I have?'));
-
-
-  var tattoos =Number(prompt( userName +' how many tattoos do you think I have?'));
+  var tattoos = Number(prompt( userName +' how many tattoos do you think I have?'));
 
   console.log('tattoos', tattoos);
 
@@ -41,11 +38,6 @@ getQ1();
 
 
 function getQ2() {
-
-
-var animal = prompt('So many people in Seattle own an animal, do you think I do Y or N?').toUpperCase();
-console.log('animal', animal);
-
 
   var animal = prompt('So many people in Seattle own an animal, do you think I do Y or N?').toUpperCase();
   console.log('animal', animal);
